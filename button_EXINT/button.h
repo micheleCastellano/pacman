@@ -1,0 +1,12 @@
+#include "LPC17xx.h"
+
+#ifndef __BUTTON_H
+#define __BUTTON_H
+
+void BUTTON_init(void);
+
+void EINT0_IRQHandler(void);
+void EINT1_IRQHandler(void);
+void EINT2_IRQHandler(void);
+
+#endif /* end __BUTTON_H */
